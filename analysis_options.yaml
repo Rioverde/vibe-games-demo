@@ -1,0 +1,19 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  exclude: [build/**, lib/generated/**, lib/**.g.dart, lib/**.gen.dart, lib/**.config.dart, lib/**.freezed.dart, lib/**.gr.dart, lib/l10n/gen/**, android/**, ios/**, web/**, windows/**, macos/**, linux/**]
+  language:
+    strict-raw-types: false
+  errors:
+    invalid_annotation_target: ignore
+    depend_on_referenced_packages: ignore
+    one_member_abstracts: ignore
+
+linter:
+  rules:
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+    sort_pub_dependencies: false
+    use_build_context_synchronously: false
+    avoid_catches_without_on_clauses: false
+    discarded_futures: false

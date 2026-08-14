@@ -1,0 +1,39 @@
+targets:
+  $default:
+    builders:
+      flutter_gen:
+        options:
+          output: lib/generated/
+          line_length: 120
+        generate_for:
+          - lib/**.dart
+
+      injectable_generator|injectable_builder:
+        enabled: true
+        generate_for:
+          - lib/**.dart
+
+      injectable_generator|injectable_config_builder:
+        enabled: true
+        generate_for:
+          - lib/**.dart
+
+      auto_route_generator|autoRouteGenerator:
+        generate_for:
+          - lib/app/router/router.dart
+
+      freezed|freezed:
+        generate_for:
+          - lib/**.dart
+        options:
+          to_json: false
+          make_collections_unmodifiable: false
+
+      json_serializable|json_serializable:
+        generate_for:
+          - lib/**.dart
+        options:
+          explicit_to_json: true
+          include_if_null: false
+          create_to_json: false
+          field_rename: snake

@@ -1,0 +1,65 @@
+{
+    "@@locale": "en",
+
+    "battlePassPremiumAvailable": "Unlocked with premium!",
+    "battlePassQuests": "Quests",
+    "battlePassClaim": "Claim",
+    "battlePassClaimAllPending": "Get them all at once!",
+    "battlePassClaimAll": "Claim all rewards",
+    "battlePassFinishedTitle": "Battle Pass is over",
+    "battlePassFinishedDescription": "Collect the rewards you have left!",
+
+    "questsTitle": "Battle pass quests",
+    "questsRefreshHint": "Until quests refresh",
+    "questsXpReward": "BP experience",
+    "questsClaimXp": "Claim experience",
+    "questsGo": "Go",
+    "questsDone": "Done",
+    "questsUpgradeCta": "Upgrade",
+    "questsUpgradeHintPrefix": "",
+    "questsUpgradeHintAccent": "25%",
+    "questsUpgradeHintSuffix": " faster with premium!",
+    "questsPremiumOwnedHint": "Quests give 25% more experience",
+
+    "amountMultiplier": "x{amount}",
+    "@amountMultiplier": {
+        "description": "Quantity pill on a reward card",
+        "placeholders": { "amount": { "type": "int" } }
+    },
+    "xpMultiplier": "x {amount}",
+    "@xpMultiplier": {
+        "description": "Experience reward next to the XP icon",
+        "placeholders": { "amount": { "type": "int" } }
+    },
+    "progressFraction": "{progress} / {goal}",
+    "@progressFraction": {
+        "description": "Quest and level progress as a fraction",
+        "placeholders": { "progress": { "type": "int" }, "goal": { "type": "int" } }
+    },
+
+    "countdownDays": "{days}d {hours}h {minutes}m",
+    "@countdownDays": {
+        "placeholders": { "days": { "type": "int" }, "hours": { "type": "int" }, "minutes": { "type": "int" } }
+    },
+    "countdownHours": "{hours}h {minutes}m",
+    "@countdownHours": {
+        "placeholders": { "hours": { "type": "int" }, "minutes": { "type": "int" } }
+    },
+    "countdownMinutes": "{minutes}m {seconds}s",
+    "@countdownMinutes": {
+        "placeholders": { "minutes": { "type": "int" }, "seconds": { "type": "int" } }
+    },
+    "countdownFinished": "Over",
+
+    "scenarioSwitchLabel": "State: {state}  ›",
+    "@scenarioSwitchLabel": {
+        "description": "Demo control that swaps the mocked backend reply",
+        "placeholders": { "state": { "type": "String" } }
+    },
+    "scenarioPremiumNotOwned": "Premium not bought",
+    "scenarioRewardAvailable": "Premium bought · reward",
+    "scenarioMaxLevel": "Max level",
+    "scenarioSeasonFinished": "Pass finished",
+
+    "errorMessage": "Something went wrong. Please try again later."
+}
